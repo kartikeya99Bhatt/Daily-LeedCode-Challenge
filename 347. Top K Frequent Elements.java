@@ -26,9 +26,7 @@ class Solution{
             fmap.put(val,fmap.getOrDefault(val,0)+1);
         }
        
-        // PriorityQueue<Pair>pq=new PriorityQueue<>((a,b)->{
-        //     return(b.fq-a.fq);
-        // });
+        
         
         PriorityQueue<pair>pq=new PriorityQueue<>();
         
